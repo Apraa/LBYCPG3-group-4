@@ -1,0 +1,142 @@
+/*--- page ---*/
+
+body {
+	padding: 0;
+	margin: 0;
+	background: #FFF; 
+}
+
+/*--- navigation bar ---*/
+
+#main-nav {
+	background: #E9F3F6;
+}
+
+#main-nav-link {
+	color: #0495BF;
+	cursor: pointer;
+}
+
+.nav-link {
+	margin-right: 1em !important;
+}
+
+#main-nav-link:hover {
+	color: #01C2D9;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+#detail-nav {
+	background: #000;
+}
+
+#detail-nav-link {
+	color: #fff;
+	cursor: pointer;
+}
+
+#detail-nav-link.active{
+	background: #fff;
+	color: #575757;
+}
+
+#detail-nav-link:hover{
+	color: #575757;
+}
+
+/*--- header ---*/
+
+.header {
+	max-height: 50vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+#header-bg-1{
+	background-image: url("assets/poverty_bg.jpg");
+}
+
+.overlay {
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+
+.description h1 {
+	color: #fff;
+}
+
+.description p {
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+/*--- feature section ---*/
+
+.body-title {
+	color: #fff;
+	font-size: 3.3rem;
+	font-weight: 700;
+	text-transform: uppercase;
+    text-align: center;
+}
+
+#goal-bg-1{
+	background: #e5233d;
+}
+
+.features {
+	padding: 3em;
+	position: relative;
+	background-size: cover;
+}
+
+/*--- details ---*/
+
+.tab-content {
+	margin: 2em;
+}
+
+.tab-content h3 {
+	text-transform: uppercase;
+	margin-bottom: 1em;
+	font-weight: bold;
+}
+
+.tab-content h5 {
+	margin-bottom: 0.5em;
+	font-weight: bold;
+}
+
+.tab-content h6 {
+	font-weight: bold;
+}
+
+/*--- footer ---*/
+
+.page-footer {
+	background-color: #E9F3F6;
+	color: #ccc;
+	padding: 60px 0 30px;
+}
+
+.footer-copyright {
+	color: #666;
+	padding: 40px 0;
+}
