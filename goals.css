@@ -60,6 +60,14 @@ body {
 	background-image: url("assets/poverty_bg.jpg");
 }
 
+#header-bg-2{
+	background-image: url("assets/hunger_bg.jpg");
+}
+
+#header-bg-3{
+	background-image: url("assets/goodHealth_bg.jpg");
+}
+
 .overlay {
 	position: absolute;
 	min-height: 100%;
