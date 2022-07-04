@@ -68,6 +68,10 @@ body {
 	background-image: url("assets/goodHealth_bg.jpg");
 }
 
+#header-bg-4{
+	background-image: url("assets/qualityEdu_bg.jpg");
+}
+
 .overlay {
 	position: absolute;
 	min-height: 100%;
@@ -83,6 +87,7 @@ body {
 	top: 45%;
 	transform: translate(-50%, -55%);
 	text-align: center;
+	margin: 1em;
 }
 
 .description h1 {
