@@ -72,6 +72,10 @@ body {
 	background-image: url("assets/qualityEdu_bg.jpg");
 }
 
+#header-bg-5{
+	background-image: url("assets/genderEq_bg.jpg");
+}
+
 .overlay {
 	position: absolute;
 	min-height: 100%;
