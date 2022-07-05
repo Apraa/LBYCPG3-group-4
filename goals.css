@@ -76,6 +76,54 @@ body {
 	background-image: url("assets/genderEq_bg.jpg");
 }
 
+#header-bg-6{
+	background-image: url("assets/cleanWater_bg.jpg");
+}
+
+#header-bg-7{
+	background-image: url("assets/energy_bg.jpg");
+}
+
+#header-bg-8{
+	background-image: url("assets/decentWork_bg.jpg");
+}
+
+#header-bg-9{
+	background-image: url("assets/industry_bg.jpg");
+}
+
+#header-bg-10{
+	background-image: url("assets/inequalities_bg.jpg");
+}
+
+#header-bg-11{
+	background-image: url("assets/cities_bg.jpg");
+}
+
+#header-bg-12{
+	background-image: url("assets/consumption_bg.jpg");
+}
+
+#header-bg-13{
+	background-image: url("assets/climateAction_bg.jpg");
+}
+
+#header-bg-14{
+	background-image: url("assets/belowWater_bg.jpg");
+}
+
+#header-bg-15{
+	background-image: url("assets/onLand_bg.jpg");
+}
+
+#header-bg-16{
+	background-image: url("assets/peace_bg.jpg");
+}
+
+#header-bg-17{
+	background-image: url("assets/partnership_bg.jpg");
+}
+
 .overlay {
 	position: absolute;
 	min-height: 100%;
@@ -95,6 +143,10 @@ body {
 }
 
 .description h1 {
+	color: #fff;
+}
+
+.description h2 {
 	color: #fff;
 }
 
